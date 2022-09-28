@@ -8,7 +8,7 @@ public class DrivableTraderTest {
 
     @Before
     public void setUp() throws Exception {
-        dt = new DrivableTrader(10);
+        dt = new DrivableTrader(10, inventory, wishlist);
     }
 
     @Test(timeout = 50)
